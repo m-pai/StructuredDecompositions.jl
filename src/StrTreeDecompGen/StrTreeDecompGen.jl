@@ -14,6 +14,8 @@ include("tree-gen.jl")
 include("graph-gen.jl")
 include("product.jl")
 include("decomp.jl")
+include("codecomp.jl")
+include("tree-decomp-generator.jl")
 
 export decompositions, codecompositions, tree_decomp_gen
 
